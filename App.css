@@ -1,0 +1,30 @@
+:root{
+  --eco-blue: #05386B;
+  --eco-green: #59c174;
+  --eco-yellow:#e8e8e8;
+   /* #edf5e1; */
+
+
+
+  --eco-darkgrey:#7e8c9c;
+  --eco-grey: #A8A8A8;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+ 
+  background-color: var(--eco-yellow);
+  
+}
+
+.root-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
+  background-color: var(--eco-yellow);
+
+}
+
