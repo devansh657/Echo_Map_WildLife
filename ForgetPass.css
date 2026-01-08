@@ -1,0 +1,85 @@
+.reset-password-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--eco-yellow);
+}
+
+.frame {
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 50vw;
+    height: 70vh;
+    max-height: 85vh;
+    border-radius: 10px;
+    background-color:var(--eco-blue);
+    margin-top: 50px;
+    margin-left: 350px;
+
+}
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: 'Lucida Sans';
+}
+
+.heading {
+    position: absolute;
+    height: 100vh;
+    text-align: center;
+    left: 40px;
+    text-decoration: none;
+    left: 10px;
+
+}
+
+.sub-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 952px;
+    height: 450px;
+    border-style: solid;
+    background-color: #EDF5E1;
+}
+
+l1 {
+    position: relative;
+    top: 10px;
+    font-size: 40px;
+}
+
+l2 {
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+}
+
+
+.sub-container input {
+    top: 70px;
+    position: relative;
+    left: 30px;
+}
+
+.login-link {
+    background-color: #05386B;
+    color: #EDF5E1;
+    width: 140px;
+    border-radius: 10px;
+    align-items: center;
+    align-self: center;
+    font-size: 18px;
+    white-space: nowrap;
+    position: relative;
+    bottom: 340px;
+}

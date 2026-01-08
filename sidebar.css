@@ -1,0 +1,55 @@
+.sidebar {
+    position: fixed;
+    align-items: center;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: var(--eco-blue);
+    transition: left 0.3s;
+    z-index: 100;
+  }
+  
+  .sidebar.open {
+    left: 0;
+    
+  }
+.corner-buttons{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  align-content: center;
+}
+  .logout{
+    height: 40px;
+    font-size: large;
+    width: 100%;
+    margin-top:10px;
+    background-color: transparent;
+    border: 5px;
+    border-color: var(--eco-blue);
+    border-radius: 10px;
+
+  }
+
+  .icon-btn{
+    background-color: transparent;
+    margin-top: 10px;
+  }
+.menu-side{
+    display: flex;
+    flex-direction: row;
+}
+  .main{
+    display: flex;     
+    flex-direction: row; 
+    align-items: center;    
+    justify-content: space-between;    
+  }
+
+  .options{
+    display: flex;
+    /* height: 100%; */
+    margin-top: 150px;
+    flex-direction: column;
+  }

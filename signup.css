@@ -1,0 +1,65 @@
+.name{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    align-content: center;
+}
+
+.passwords{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    align-content: center;
+}
+.other-fields{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    align-content: center;
+}
+.inputs{
+    align-items: center;
+    align-content: center;
+    width: 100%;
+
+}
+
+.input{
+    width: 90%;
+    margin: 1vh;
+}
+
+.frame {
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 50vw;
+    height: auto;
+    border-radius: 10px;
+    background-color:var(--eco-blue);
+    margin-top: 50px;
+    margin-left: 350px;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    width: 60%;
+    justify-content: center;
+    margin-left: 65px;
+}
+
+.error{
+    color:red;
+
+    /* margin-bottom: 0px; */
+}
